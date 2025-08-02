@@ -1,6 +1,6 @@
 # 🚦 SinalSADC - Quiz de Sinalização Rodoviária da SADC
 
-**SinalSADC** é um aplicativo interativo em formato de quiz que ajuda estudantes, condutores e entusiastas da condução a testarem seus conhecimentos sobre os sinais de trânsito usados nos países da **Comunidade de Desenvolvimento da África Austral (SADC)**.
+**SinalSADC** é um Quiz interativo em formato de quiz que ajuda estudantes, condutores e entusiastas da condução a testarem seus conhecimentos sobre os sinais de trânsito usados nos países da **Comunidade de Desenvolvimento da África Austral (SADC)**.
 
 > 📍 Ideal para quem está se preparando para exames de condução, formações ou apenas quer reforçar o que sabe sobre sinalização rodoviária.
 
@@ -38,12 +38,12 @@ Novos recursos em breve:
 ---
 .
 
-🧑‍💻 Autor
-Desenvolvido com 💡 por Rui Gomes
+🧑‍💻 Autor:
+Desenvolvido por Rui Gomes
 
-💼 LinkedIn
+💼 LinkedIn: linkedin.com/in/ruigomes-dev/
 
-🐙 GitHub
+🐙 GitHub: https://github.com/RuiGomes111/
 
 📧 Email: ruisoft01@gmail.com
 
