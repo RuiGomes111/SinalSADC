@@ -41,7 +41,7 @@ Novos recursos em breve:
 🧑‍💻 Autor:
 Desenvolvido por Rui Gomes
 
-💼 LinkedIn: linkedin.com/in/ruigomes-dev/
+💼 LinkedIn: https://www.linkedin.com/in/ruigomes-dev/
 
 🐙 GitHub: https://github.com/RuiGomes111/
 
