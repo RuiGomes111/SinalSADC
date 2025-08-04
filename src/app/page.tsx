@@ -17,10 +17,8 @@ export default function Home() {
   const questions = [
     {
       text: 'Que sinal é este?',
-      options: [`Sinal de obrigação, obrigação de utilizar as luzes maxímas acesas`, `Sinal de obrigação, obrigação de utilizar as luzes minímas acesas`, `Sinal de obrigação, obrigação de utilizar as luzes médias ou luzes de
-cruzamentos acesas`],
-      answer: `Sinal de obrigação, obrigação de utilizar as luzes médias ou luzes de
-cruzamentos acesas`,
+      options: [`Sinal de obrigação, obrigação de utilizar as luzes maxímas acesas`, `Sinal de obrigação, obrigação de utilizar as luzes minímas acesas`, `Sinal de obrigação, obrigação de utilizar as luzes médias ou luzes de cruzamentos acesas`],
+      answer: `Sinal de obrigação, obrigação de utilizar as luzes médias ou luzes de cruzamentos acesas`,
       image: '/img/luzes_cruzamento.png',
     },
     {
@@ -39,7 +37,7 @@ a luz verde passagem livre
     },
     {
       text: 'Que sinal é este?',
-      options:[`Sinal de obrigação,trânsito obrigatório giratório.`, `Sinal de informação, existência de uma rotunda`, `Sinal de perigo, aproximação de uma Rotunda ou praça onde o trânsito é processado no setido giratório`],
+      options:[`Sinal de obrigação,trânsito obrigatório giratório`, `Sinal de informação, existência de uma rotunda`, `Sinal de perigo, aproximação de uma Rotunda ou praça onde o trânsito é processado no setido giratório`],
       answer: `Sinal de obrigação,trânsito obrigatório giratório`,
       image: '/img/sinal3.png',
     },
@@ -52,7 +50,7 @@ a luz verde passagem livre
      {
       text: 'Que sinal é este?',
       options:[`Sinal de proibição fim da proibição de ultrapassar para todos
-automóveis pesados.`, `Sinal de proibição fim da proibição de ultrapassar para todos
+automóveis pesados`, `Sinal de proibição fim da proibição de ultrapassar para todos
 veículos automóveis`, `Sinal de proibição fim da proibição de ultrapassar para motociclos
 simples
 `],
@@ -63,7 +61,7 @@ veículos automóveis`,
     {
       text: 'Que sinal é este?',
       options:[`Sinal de proibição fim da proibição de ultrapassar para todos
-automóveis pesados.`, `Sinal de proibição fim da proibição de ultrapassar para todos
+automóveis pesados`, `Sinal de proibição fim da proibição de ultrapassar para todos
 veículos automóveis`, `Sinal de proibição fim da proibição de ultrapassar para motociclos
 simples
 `],
@@ -74,7 +72,7 @@ automóveis pesados`,
     {
       text: 'Que sinal é este?',
       options:[`Sinal de obrigação pista obrigatória para peões e velocípedes com
-separador.`, `Sinal de obrigação pista obrigatória para peões e velocípedes sem
+separador`, `Sinal de obrigação pista obrigatória para peões e velocípedes sem
 separador`, `Sinal de obrigação, fim da pista obrigatória para peões
 `],
       answer: `Sinal de obrigação pista obrigatória para peões e velocípedes sem
@@ -84,7 +82,7 @@ separador`,
      {
       text: 'Que sinal é este?',
       options:[`Sinal de obrigação pista obrigatória para peões e velocípedes com
-separador.`, `Sinal de obrigação pista obrigatória para peões e velocípedes sem
+separador`, `Sinal de obrigação pista obrigatória para peões e velocípedes sem
 separador`, `Sinal de obrigação, fim da pista obrigatória para peões
 `],
       answer: `Sinal de obrigação pista obrigatória para peões e velocípedes com
@@ -94,61 +92,46 @@ separador`,
      {
       text: 'Que sinal é este?',
       options:[`Sinal de proibição transito proibido a veículos que transportam
-meradorias perigosas.`, `Sinal de proibição transito proibido a veículos que transportam
-produtos capazes de poluirem as águas.`, `Sinal de proibição transito proibido a veículos que transportam
+meradorias perigosas`, `Sinal de proibição transito proibido a veículos que transportam
+produtos capazes de poluirem as águas`, `Sinal de proibição transito proibido a veículos que transportam
 produtos imflamaveis ou facilmente explosivos
 `],
       answer: `Sinal de proibição transito proibido a veículos que transportam
-produtos capazes de poluirem as águas.`,
+meradorias perigosas`,
       image: '/img/sinal9.png',
     },
 
     {
       text: 'Que sinal é este?',
-      options:[`Sinal de proibição estacionamento proibido.`, `Sinal de proibição paragem proibida.`, `Sinal de proibição, trÂnsito proibido
+      options:[`Sinal de proibição estacionamento proibido`, `Sinal de proibição paragem proibida`, `Sinal de proibição, trÂnsito proibido
 `],
-      answer: `Sinal de proibição paragem proibida.
-.`,
+      answer: `Sinal de proibição paragem proibida`,
       image: '/img/sinal10.png',
     },
 
     {
       text: 'Que sinal é este?',
-      options:[`Sinal de obrigação pista obrigatória para veículos de tração animal.`, `Sinal de obrigação pista obrigatória para gados em manada.`, `Sinal de obrigação pista obrigatória para cavaleiros
-
-`],
-      answer: `Sinal de obrigação pista obrigatória para veículos de tração animal.
-.`,
+      options:[`Sinal de obrigação pista obrigatória para veículos de tração animal`, `Sinal de obrigação pista obrigatória para gados em manada`, `Sinal de obrigação pista obrigatória para cavaleiros`],
+      answer: `Sinal de obrigação pista obrigatória para veículos de tração animal`,
       image: '/img/sinal11.png',
     },
 
     {
       text: 'Que sinal é este?',
-      options:[`Sinal de proibição, proibição de ultrapassar para todos os automóveis.`, `Sinal de proibição, proibição de ultrapassar para automóveis
-pesados.`, `Sinal de proibição, proibição de ultrapassar para motociclos e
-ciclomotores.
-
-
-`],
-      answer: `Sinal de proibição, proibição de ultrapassar para automóveis
-pesados.
-.`,
+      options:[`Sinal de proibição, proibição de ultrapassar para todos os automóveis`, `Sinal de proibição, proibição de ultrapassar para automóveis pesados`, `Sinal de proibição, proibição de ultrapassar para motociclos e ciclomotores`],
+      answer: `Sinal de proibição, proibição de ultrapassar para automóveis pesados`,
       image: '/img/sinal12.png',
     },
 
      {
       text: 'Que sinal é este?',
       options:[`Sinal de proibição transito proibido( Proibe o trânsito nos dois
-sentidos)..`, `Sinal de proibição sentido proibido( só proibe o transito de veículos
+sentidos)`, `Sinal de proibição sentido proibido( só proibe o transito de veículos
 num único sentido e transita-se também num outro sentido que é em sentido
-contrário).`, `Sinal de proibição, Sinal de proibição estacionamento proibido.
-
-
-`],
+contrário)`, `Sinal de proibição, Sinal de proibição estacionamento proibido`],
       answer: `Sinal de proibição sentido proibido( só proibe o transito de veículos
 num único sentido e transita-se também num outro sentido que é em sentido
-contrário).
-.`,
+contrário)`,
       image: '/img/sinal13.png',
     },
   ];
