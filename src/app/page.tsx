@@ -6,6 +6,7 @@ import Question from '../components/questions';
 import Answers from '../components/answer';
 import Finish from '../components/finish';
 import { motion } from 'framer-motion';
+import { option } from 'framer-motion/client';
 
 export default function Home() {
   const [stage, setStage] = useState<'intro' | 'quiz' | 'finish'>('intro');
@@ -35,6 +36,120 @@ a luz vermelha significa paragem obrigatória, amarela, atenção e pudencia e
 a luz verde passagem livre
 `,
       image: '/img/luminoso.png',
+    },
+    {
+      text: 'Que sinal é este?',
+      options:[`Sinal de obrigação,trânsito obrigatório giratório.`, `Sinal de informação, existência de uma rotunda`, `Sinal de perigo, aproximação de uma Rotunda ou praça onde o trânsito é processado no setido giratório`],
+      answer: `Sinal de obrigação,trânsito obrigatório giratório`,
+      image: '/img/sinal3.png',
+    },
+    {
+      text: 'Que sinal é este?',
+      options:[`Sinal de perigo, aproximação de uma via com depressão.`, `Sinal de informação, existência de uma via com lomba e depressão`, `Sinal de perigo, aproximação de uma via com lomba`],
+      answer: `Sinal de perigo, aproximação de uma via com lomba`,
+      image: '/img/sinal4.png',
+    },
+     {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição fim da proibição de ultrapassar para todos
+automóveis pesados.`, `Sinal de proibição fim da proibição de ultrapassar para todos
+veículos automóveis`, `Sinal de proibição fim da proibição de ultrapassar para motociclos
+simples
+`],
+      answer: `Sinal de proibição fim da proibição de ultrapassar para todos
+veículos automóveis`,
+      image: '/img/sinal5.png',
+    },
+    {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição fim da proibição de ultrapassar para todos
+automóveis pesados.`, `Sinal de proibição fim da proibição de ultrapassar para todos
+veículos automóveis`, `Sinal de proibição fim da proibição de ultrapassar para motociclos
+simples
+`],
+      answer: `Sinal de proibição fim da proibição de ultrapassar para todos
+automóveis pesados`,
+      image: '/img/sinal6.png',
+    },
+    {
+      text: 'Que sinal é este?',
+      options:[`Sinal de obrigação pista obrigatória para peões e velocípedes com
+separador.`, `Sinal de obrigação pista obrigatória para peões e velocípedes sem
+separador`, `Sinal de obrigação, fim da pista obrigatória para peões
+`],
+      answer: `Sinal de obrigação pista obrigatória para peões e velocípedes sem
+separador`,
+      image: '/img/sinal7.png',
+    },
+     {
+      text: 'Que sinal é este?',
+      options:[`Sinal de obrigação pista obrigatória para peões e velocípedes com
+separador.`, `Sinal de obrigação pista obrigatória para peões e velocípedes sem
+separador`, `Sinal de obrigação, fim da pista obrigatória para peões
+`],
+      answer: `Sinal de obrigação pista obrigatória para peões e velocípedes com
+separador`,
+      image: '/img/sinal8.png',
+    },
+     {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição transito proibido a veículos que transportam
+meradorias perigosas.`, `Sinal de proibição transito proibido a veículos que transportam
+produtos capazes de poluirem as águas.`, `Sinal de proibição transito proibido a veículos que transportam
+produtos imflamaveis ou facilmente explosivos
+`],
+      answer: `Sinal de proibição transito proibido a veículos que transportam
+produtos capazes de poluirem as águas.`,
+      image: '/img/sinal9.png',
+    },
+
+    {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição estacionamento proibido.`, `Sinal de proibição paragem proibida.`, `Sinal de proibição, trÂnsito proibido
+`],
+      answer: `Sinal de proibição paragem proibida.
+.`,
+      image: '/img/sinal10.png',
+    },
+
+    {
+      text: 'Que sinal é este?',
+      options:[`Sinal de obrigação pista obrigatória para veículos de tração animal.`, `Sinal de obrigação pista obrigatória para gados em manada.`, `Sinal de obrigação pista obrigatória para cavaleiros
+
+`],
+      answer: `Sinal de obrigação pista obrigatória para veículos de tração animal.
+.`,
+      image: '/img/sinal11.png',
+    },
+
+    {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição, proibição de ultrapassar para todos os automóveis.`, `Sinal de proibição, proibição de ultrapassar para automóveis
+pesados.`, `Sinal de proibição, proibição de ultrapassar para motociclos e
+ciclomotores.
+
+
+`],
+      answer: `Sinal de proibição, proibição de ultrapassar para automóveis
+pesados.
+.`,
+      image: '/img/sinal12.png',
+    },
+
+     {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição transito proibido( Proibe o trânsito nos dois
+sentidos)..`, `Sinal de proibição sentido proibido( só proibe o transito de veículos
+num único sentido e transita-se também num outro sentido que é em sentido
+contrário).`, `Sinal de proibição, Sinal de proibição estacionamento proibido.
+
+
+`],
+      answer: `Sinal de proibição sentido proibido( só proibe o transito de veículos
+num único sentido e transita-se também num outro sentido que é em sentido
+contrário).
+.`,
+      image: '/img/sinal13.png',
     },
   ];
 
