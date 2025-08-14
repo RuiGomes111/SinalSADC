@@ -134,6 +134,52 @@ num único sentido e transita-se também num outro sentido que é em sentido
 contrário)`,
       image: '/img/sinal13.png',
     },
+
+     {
+      text: 'Que sinal é este?',
+      options:[`sinal de cedência de passagem fim de uma via com prioridade`, `sinal de cedência de passagem inicío de uma via com prioridade`, `sinal de cedência de passagem dar prioridade nos estreitamentos da
+faixa de rodagem`],
+      answer: `sinal de cedência de passagem inicío de uma via com prioridade`,
+      image: '/img/sinal14.png',
+    },
+
+    {
+      text: 'Que sinal é este?',
+      options:[`sinal de perigo local de uma passagem de nivel sem guarda com uma
+via ferroviária`, `sinal de perigo local de uma passagem de nivel sem guarda com uma
+via ferroviária`, `sinal de perigo local de uma passagem de nivel sem guarda com uma
+via ferroviária`],
+      answer: `sinal de perigo local de uma passagem de nivel sem guarda com uma
+via ferroviária`,
+      image: '/img/sinal15.png',
+    },
+
+     {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição, proibição de exceder a velocidade miníma de 90
+km/h`, `Sinal de proibição, proibição de exceder a velocidade máxima de 90
+km/h`, `Sinal de proibição, proibição de exceder a velocidade de 90
+km/h`],
+      answer: `Sinal de proibição, proibição de exceder a velocidade máxima de 90
+km/h`,
+      image: '/img/sinal16.png',
+    },
+
+    {
+      text: 'Que sinal é este?',
+      options:[`sinal de perigo aproximação de um troço de via com perigos não
+identificados`, `sinal de perigo aproximação de um troço de via com perigos identificados`, `sinal de perigo aproximação de um troço de via com perigos não identificados`],
+      answer: `sinal de perigo aproximação de um troço de via com perigos não
+identificados`,
+      image: '/img/sinal17.png',
+    },
+    
+     {
+      text: 'Que sinal é este?',
+      options:[`Sinal de proibição transito proibido a veículos de tração animal`, `Sinal de proibição transito proibido a veículos agricolas`, `Sinal de proibição transito proibido a veículos pesados`],
+      answer: `Sinal de proibição transito proibido a veículos agricolas`,
+      image: '/img/sinal18.png',
+    },
   ];
 
   const handleAnswer = (option: string) => {
